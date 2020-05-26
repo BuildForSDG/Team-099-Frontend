@@ -22,7 +22,7 @@
 }
 
 .logo img {
-  width: 35%;
+  width: 85px;
   height: auto;
 }
 
@@ -79,6 +79,12 @@
   box-shadow: 1px 2px 8px 4px rgba(164, 164, 208, 0.52);
 }
 
+.fixed-top {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 .footer {
   background-color: #161940;
   width: 100%;
@@ -96,7 +102,7 @@
 }
 
 .ft-col img {
-  width: 30%;
+  width: 100px;
 }
 
 .ft-col ul {
@@ -187,7 +193,7 @@
     display: block;
     width: 100%;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     background-color: #fff;
   }
 

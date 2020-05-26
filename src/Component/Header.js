@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <React.Fragment>
-      <nav className="nav">
+      <nav className="nav fixed-top">
         <div className="nav-main">
           <div className="logo">
             <a href="/"><img src={Logo} alt="Edukolab logo" /></a>
