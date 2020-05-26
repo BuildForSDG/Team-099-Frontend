@@ -39,9 +39,10 @@
 }
 
 .menu ul li a, .m-menu li a {
-  font-size: 16px;
+  font-size: 15px;
   color: #161940;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .menu ul li a:hover {
