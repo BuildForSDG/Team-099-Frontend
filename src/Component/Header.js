@@ -37,13 +37,13 @@ function Header() {
         </div>
       </nav>
       {showMenu && <div className="mobile-menu">
-        <ul class="m-menu">
+        <ul className="m-menu">
           <li><a href="/">Courses</a></li>
           <li><a href="/">Assessment</a></li>
           <li><a href="/">Further Study</a></li>
           <li><a href="/">About EduKolab</a></li>
         </ul>
-        <div class="m-cta">
+        <div className="m-cta">
           <a href="/" className="cta-login">Login</a>
           <a href="/" className="cta-reg">Register</a>
         </div>
