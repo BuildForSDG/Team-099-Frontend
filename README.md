@@ -1,7 +1,6 @@
 trainings, certifications and employment opportunities for teachers
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2a6c9e610854e1da519d5eeab79df0d)](https://app.codacy.com/gh/BuildForSDG/EduKolab-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/EduKolab-Frontend&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2a6c9e610854e1da519d5eeab79df0d)](https://app.codacy.com/gh/BuildForSDG/team-099-frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-099-frontend&utm_campaign=Badge_Grade_Settings)
 
 ## About
 The name of our soolution is **EduKolab**.
