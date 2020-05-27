@@ -38,15 +38,12 @@
   vertical-align: middle;
 }
 
-.menu ul li a, .m-menu li a {
+.m-menu li a, 
+.menu ul li a {
   font-size: 15px;
   color: #161940;
   font-weight: 500;
   text-transform: uppercase;
-}
-
-.menu ul li a:hover {
-  border-bottom: 1px solid #161940;
 }
 
 .cta {
@@ -75,7 +72,8 @@
   cursor: pointer;
 }
 
-.cta-reg:hover, .cta-login:hover {
+.cta-reg:hover, 
+.cta-login:hover {
   color: #fff;
   box-shadow: 1px 2px 8px 4px rgba(164, 164, 208, 0.52);
 }
@@ -122,6 +120,10 @@
   font-size: 15px;
 }
 
+.menu ul li a:hover {
+  border-bottom: 1px solid #161940;
+}
+
 .ft-col ul li a:hover {
   color: #f1f1f1;
 }
@@ -137,13 +139,13 @@
   font-size: 13px;
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (min-width: 900px) {
   .hambuger {
     display: none;
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .logo {
     width: 50%;
   }
@@ -152,7 +154,8 @@
     width: 45%;
   }
 
-  .menu, .cta {
+  .menu, 
+  .cta {
     display: none;
   }
 
@@ -211,4 +214,5 @@
     margin: auto 30%;
     text-align: center;
   }
+  
 }
