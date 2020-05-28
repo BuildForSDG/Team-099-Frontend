@@ -5,7 +5,7 @@
 
     Sam Karis -- Team Mentor -- @sam-karis
     Jedidiah Amaraegbu -- Technical Team Lead -- @amjedidiah
-    Victor Nwoguru -- Technical Team Lead -- @vkguru
+    Victor Nwoguru -- Technical Communication Lead -- @vkguru
     Philip Okonwanji -- @okonwanjiphilip
     Hussein AbdulAzeez -- @lahkanmi
     Yusuf AbdulAzeez -- @horler408
