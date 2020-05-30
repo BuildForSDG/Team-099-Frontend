@@ -1,6 +1,8 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
-import App from '../app.js';
+import { Provider } from 'react-redux';
+import App from '../../app.js';
+import store from '../../redux/store.js';
 
 
 it('renders app component without crashing', () => {
@@ -8,5 +10,7 @@ it('renders app component without crashing', () => {
 });
 
 it('renders entire app without crashing', () => {
-  mount(<App />);
+  mount(<Provider store={store}>
+    <App />
+  </Provider>);
 });

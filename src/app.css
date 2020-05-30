@@ -1,0 +1,132 @@
+/* CSS Document */
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  transition: all 0.1s ease-out;
+}
+
+body#body,
+body#body > main,
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body#body h1,
+body#body h2,
+body#body h3,
+body#body h4,
+body#body h5,
+body#body h6 {
+  font-family: 'Roboto', serif;
+}
+
+body#body a {
+  text-decoration: none;
+  box-shadow: none;
+  background: inherit;
+}
+
+body#body a:hover,
+body#body a.active {
+  color: #161940;
+  font-weight: 600;
+}
+
+body#body .form-control,
+body#body .form-control:-webkit-autofill,
+body#body .form-control:-webkit-autofill:hover,
+body#body .form-control:-webkit-autofill:focus,
+body#body .form-control:-webkit-autofill:active {
+  box-shadow: none;
+  -webkit-box-shadow: 0 0 0 100 #fff inset;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body#body .btn,
+body#body button,
+body#body .btn:focus,
+body#body button:focus,
+body#body .btn:hover,
+body#body button:hover {
+  font-weight: 600;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: none;
+  color: #fff;
+}
+
+body#body .border-success {
+  border-color: #099a7e;
+}
+
+body#body .border-primary {
+  border-color: #161940;
+}
+
+body#body .border-warning {
+  border-color: #e7816e;
+}
+
+body#body .text-success,
+body#body .btn-outline-success {
+  color: #099a7e;
+}
+
+body#body .text-primary,
+body#body .btn-outline-primary {
+  color: #161940;
+}
+
+body#body .text-warning,
+body#body .btn-outline-warning {
+  color: #e7816e;
+}
+
+body#body .bg-success,
+body#body .btn-success,
+body#body .btn-outline-success:hover {
+  background: #099a7e;
+}
+
+body#body .bg-primary,
+body#body .btn-primary,
+body#body .btn-outline-primary:hover {
+  background: #161940;
+}
+
+body#body .bg-warning,
+body#body .btn-warning,
+body#body .btn-outline-warning:hover {
+  background: #e7816e;
+}
+
+body#body .bg-white,
+body#body .btn-white,
+body#body .btn-outline-white:hover {
+  background: #fff;
+  color: #161940;
+}
+
+body#body .bg-light,
+body#body .btn-light,
+body#body .btn-outline-light:hover {
+  background: #eef1f4;
+}
+
+body#body .btn-link {
+  box-shadow: none;
+  color: #161940;
+  font-weight: bold;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+body#body .clear {
+  clear: both;
+}
+
+body#body .pointer {
+  box-shadow: none;
+  cursor: pointer;
+}

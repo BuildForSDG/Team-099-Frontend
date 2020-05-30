@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
+import { reducer as formReducer } from 'redux-form';
+import authReducer from './authReducer.js';
 
-// Declare dummy reducer because store can't be empty
-const dummyReducer = () => ({});
-
-export default combineReducers({ dummy: dummyReducer });
+export default combineReducers({
+  auth: authReducer,
+  form: formReducer
+});
