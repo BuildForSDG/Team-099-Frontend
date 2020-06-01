@@ -6,7 +6,7 @@ body#body div#authContainer .form-container-holder {
 body#body div#authContainer form {
   background: #161940;
   padding: 90px 20px 10px 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 body#body div#authContainer form .form-row {
@@ -56,13 +56,9 @@ body#body div#authContainer form .form-holder:hover .form-control {
   background: #fff;
 }
 
-body#body div#authContainer form .form-row .form-holder .form-control:focus,
 body#body div#authContainer form .form-row .form-holder .form-control,
-body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill,
-body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:hover,
-body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:focus,
-body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:active,
-body#body div#authContainer form .form-row .form-holder .form-control[pla] {
+body#body div#authContainer form .form-row .form-holder .form-control:focus,
+body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 100px #161940 inset;
   box-shadow: 0 0 0 100px #161940 inset;
   border: none;
@@ -70,9 +66,26 @@ body#body div#authContainer form .form-row .form-holder .form-control[pla] {
   -webkit-text-fill-color: #eef1f4;
 }
 
-body#body div#authContainer form .form-row .form-holder:hover .form-control:focus,
 body#body div#authContainer form .form-row .form-holder:hover .form-control,
-body#body div#authContainer form .form-row .form-holder:hover .form-control:-webkit-autofill,
+body#body div#authContainer form .form-row .form-holder:hover .form-control:focus,
+body#body div#authContainer form .form-row .form-holder:hover .form-control:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px #fff inset;
+  box-shadow: 0 0 0 100px #fff inset;
+  background: #fff;
+  outline: none;
+  -webkit-text-fill-color: #161940;
+}
+
+body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:hover,
+body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:focus,
+body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 100px #161940 inset;
+  box-shadow: 0 0 0 100px #161940 inset;
+  border: none;
+  outline: none;
+  -webkit-text-fill-color: #eef1f4;
+}
+
 body#body div#authContainer form .form-row .form-holder:hover .form-control:-webkit-autofill:hover,
 body#body div#authContainer form .form-row .form-holder:hover .form-control:-webkit-autofill:focus,
 body#body div#authContainer form .form-row .form-holder:hover .form-control:-webkit-autofill:active {
@@ -108,7 +121,7 @@ body#body div#authContainer form .form-holder-select label i {
 body#body div#authContainer form input[type='radio']:checked + label {
   color: #161940;
   background: #fff;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
 body#body div#authContainer form .button-group {
@@ -166,13 +179,12 @@ body#body div#authContainer form .button-group .btn {
 }
 
 @media (min-width: 992px) {
-  body#body div#authContainer form .form-row .form-holder .form-control:focus,
   body#body div#authContainer form .form-row .form-holder .form-control,
+  body#body div#authContainer form .form-row .form-holder .form-control:focus,
   body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill,
   body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:hover,
   body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:focus,
-  body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:active,
-  body#body div#authContainer form .form-row .form-holder .form-control[pla] {
+  body#body div#authContainer form .form-row .form-holder .form-control:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 100px #eef1f4 inset;
     box-shadow: 0 0 0 100px #eef1f4 inset;
     background: #eef1f4;

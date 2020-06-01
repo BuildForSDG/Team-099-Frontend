@@ -1,5 +1,5 @@
 body#body div#authContainer {
-  padding-top: 0px;
+  padding-top: 0;
   background: #eef1f4;
 }
 
@@ -48,7 +48,7 @@ body#body div#authContainer .social-auth div.social-auth-facebook {
 
 @media (min-width: 576px) {
   body#body div#authContainer {
-    padding-top: 0px;
+    padding-top: 0;
     background: #161940;
   }
 }
@@ -61,7 +61,8 @@ body#body div#authContainer .social-auth div.social-auth-facebook {
 }
 
 @media (min-width: 992px) {
-  body#body div#authContainer, body#body div#authContainer .auth-holder {
+  body#body div#authContainer,
+  body#body div#authContainer .auth-holder {
     background: #eef1f4;
   }
 
