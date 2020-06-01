@@ -38,7 +38,7 @@
   vertical-align: middle;
 }
 
-.m-menu li a, 
+.m-menu li a,
 .menu ul li a {
   font-size: 15px;
   color: #161940;
@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-.cta-reg:hover, 
+.cta-reg:hover,
 .cta-login:hover {
   color: #fff;
   box-shadow: 1px 2px 8px 4px rgba(164, 164, 208, 0.52);
@@ -154,7 +154,7 @@
     width: 45%;
   }
 
-  .menu, 
+  .menu,
   .cta {
     display: none;
   }
