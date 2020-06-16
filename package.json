@@ -1,10 +1,9 @@
 {
   "name": "edukolab",
   "version": "0.0.1",
-  "description": "A boilerplate for starting js code",
+  "description": "employment opportunities for teachers",
   "keywords": [
-    "edukolab-frontend",
-    "boilerplate"
+    "edukolab-frontend"
   ],
   "private": false,
   "directories": {
@@ -57,6 +56,7 @@
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-toastify": "^6.0.5",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-form": "^8.3.5",

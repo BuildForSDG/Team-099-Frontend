@@ -4,7 +4,7 @@ import store from '../redux/store.js';
 
 // configure base url
 const api = axios.create({
-  baseURL: 'http://localhost:8008/api'
+  baseURL: 'https://edukolab-api-team-099-b-li6nmp.herokuapp.com/v1'
 });
 
 // intercept requests and add authorization token
