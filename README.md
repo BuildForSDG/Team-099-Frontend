@@ -1,17 +1,16 @@
-trainings, certifications and employment opportunities for teachers
+employment opportunities for teachers
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2a6c9e610854e1da519d5eeab79df0d)](https://app.codacy.com/gh/BuildForSDG/EduKolab-Frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/EduKolab-Frontend&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2a6c9e610854e1da519d5eeab79df0d)](https://app.codacy.com/gh/BuildForSDG/team-099-frontend?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/team-099-frontend&utm_campaign=Badge_Grade_Settings)
 
 ## About
-The name of our soolution is **EduKolab**.
+The name of our solution is **EduKolab**.
 It is a web app that:
 - connects teachers in primary && secondary schools with international cooperations for training and certification as well as
 - offers trained & certified teachers to schools && guardians for employment
 
 ## Why
 The problem we set out to solve is that of 
-_**insuuficient supply of qualified teachers in your community, Nigeria, as well as other developing countries**_.
+_**insufficient supply of qualified teachers in your community, Nigeria, as well as other developing countries**_.
 
 This project is geared at addressing the [4th Sustainable Developemnt Goal of Education](https://sustainabledevelopment.un.org/sdg4)
 
@@ -22,7 +21,7 @@ It is very important and relevant especially in this time for a good number of r
 
 ## Usage
 URL to deployed staging-app is below
-[EduKolab Staging App](https://edukolab-staging-app.herokuapp.com/)
+[EduKolab Staging App](https://edukolab-client-staging-app.herokuapp.com/)
 
 ## Setup
 1. Clone repo `git clone https://github.com/BuildForSDG/EduKolab-Frontend.git edukolab`

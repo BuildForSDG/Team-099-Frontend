@@ -1,0 +1,19 @@
+body#body header nav {
+  background: #161940;
+}
+
+body#body header nav .navbar-brand {
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  body#body header nav {
+    background: transparent;
+  }
+}
+
+@media (min-width: 992px) {
+  body#body header nav .navbar-brand {
+    margin: unset;
+  }
+}
