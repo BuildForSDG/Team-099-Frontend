@@ -95,7 +95,7 @@ class LoginForm extends Component {
             {buttonValue}
           </button>
           <Link className="btn btn-auth btn-auth-side" to="/register" role="button">
-            Create Account
+            Get Started
           </Link>
         </div>
       </form>

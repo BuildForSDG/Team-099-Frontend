@@ -15,7 +15,7 @@ import { login } from '../../../redux/actions/auth.js';
 import 'react-toastify/dist/ReactToastify.css';
 
 class Login extends Component {
-  INIT = { buttonValue: 'Login' }
+  INIT = { buttonValue: 'Login' };
 
   constructor(props) {
     super(props);
@@ -42,7 +42,12 @@ class Login extends Component {
         this.setState(this.INIT);
 
         toast.error(
-          (err && err.response && err.response.data && err.response.data.message)
+          (err
+            && err.response
+            && err.response.data
+            && err.response.data.message
+            && err.response.data.message.name
+          )
             || (err && err.response && err.response.statusText)
             || 'Network error'
         );

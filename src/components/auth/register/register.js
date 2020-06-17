@@ -16,7 +16,7 @@ import RegisterForm from './registerForm.js';
 import { login } from '../../../redux/actions/auth.js';
 
 class Register extends Component {
-  INIT = { buttonValue: 'Crate Account' }
+  INIT = { buttonValue: 'Get Started' }
 
   constructor(props) {
     super(props);
@@ -43,9 +43,14 @@ class Register extends Component {
       .userPost(userData).then(() => this.props.login({ email, password }))
       .catch((err) => {
         this.setState(this.INIT);
+
         toast.error(
-          (err && err.response && err.response.data && err.response.data.message)
-            || (err && err.response && err.response.statusText)
+          (err
+            && err.response
+            && err.response.data
+            && err.response.data.message
+            && err.response.data.message.name
+          ) || (err && err.response && err.response.statusText)
             || 'Network error'
         );
       });
@@ -64,7 +69,7 @@ class Register extends Component {
           <div className="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 form-container-holder">
             <RegisterForm onSubmit={this.submit} buttonValue={this.state.buttonValue} />
             <div className="social-auth">
-              <p className="section-header">or join with</p>
+              <p className="section-header">or get started with</p>
               <div className="social-auth-facebook">
                 <FontAwesomeIcon icon={faFacebookF} className="text-white" />
               </div>

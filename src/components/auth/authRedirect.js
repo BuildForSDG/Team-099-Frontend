@@ -12,7 +12,7 @@ class AuthRedirect extends Component {
     if (type === 'logout') {
       return auth.isSignedIn ? '' : <Redirect to="/" />;
     }
-    return auth.isSignedIn ? <Redirect to="/" /> : '';
+    return auth.isSignedIn ? <Redirect to="/user" /> : '';
   };
 }
 

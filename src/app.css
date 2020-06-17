@@ -53,7 +53,8 @@ body#body button:hover {
   font-weight: 600;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border: none;
-  color: #fff;
+  padding: 8px 30px;
+  border-radius: 50rem;
 }
 
 body#body .border-success {
@@ -73,8 +74,8 @@ body#body .btn-outline-success {
   color: #099a7e;
 }
 
-body#body .text-primary,
-body#body .btn-outline-primary {
+body#body .text-primary-edukolab,
+body#body .btn-outline-primary-edukolab {
   color: #161940;
 }
 
@@ -91,14 +92,29 @@ body#body .btn-outline-success:hover {
 
 body#body .bg-primary,
 body#body .btn-primary,
-body#body .btn-outline-primary:hover {
+body#body .btn-outline-primary:hover,
+body#body .bg-primary-edukolab,
+body#body .btn-primary-edukolab,
+body#body .btn-outline-primary-edukolab:hover {
   background: #161940;
+}
+
+body#body .btn-primary,
+body#body .btn-primary:hover,
+body#body .btn-primary-edukolab,
+body#body .btn-primary-edukolab:hover {
+  color: #fff;
 }
 
 body#body .bg-warning,
 body#body .btn-warning,
 body#body .btn-outline-warning:hover {
   background: #e7816e;
+}
+
+body#body .btn-warning,
+body#body .btn-warning:hover {
+  color: #fff;
 }
 
 body#body .bg-white,
@@ -110,8 +126,19 @@ body#body .btn-outline-white:hover {
 
 body#body .bg-light,
 body#body .btn-light,
-body#body .btn-outline-light:hover {
+body#body .btn-outline-light:hover,
+body#body .bg-light-edukolab,
+body#body .btn-light-edukolab,
+body#body .btn-outline-light-edukolab:hover {
   background: #eef1f4;
+}
+
+body#body .btn-light,
+body#body .btn-outline-light:hover,
+body#body .btn-light-edukolab,
+body#body .btn-outline-light-edukolab:hover {
+  background: #eef1f4;
+  color: #161940;
 }
 
 body#body .btn-link {

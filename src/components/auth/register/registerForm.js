@@ -94,7 +94,7 @@ class RegisterForm extends Component {
       <form onSubmit={handleSubmit} autoComplete="off">
         <h2 className="mb-0">Get Started</h2>
         <p>
-          Register to join EduKolab{' '}
+          Fill in your details to get started on EduKolab{' '}
           <span role="img" aria-label="smiley-face-wink">
             &#128521;
           </span>
@@ -192,7 +192,7 @@ class RegisterForm extends Component {
             name="userType"
             type="radio"
             component={this.renderField}
-            label="guardian"
+            label="parent or guardian"
             icon={faUserTie}
             className="col form-holder-select"
             value="UEG"
