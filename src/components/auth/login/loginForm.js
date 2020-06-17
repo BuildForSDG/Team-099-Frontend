@@ -71,10 +71,10 @@ class LoginForm extends Component {
           <Field
             action="login"
             name="email"
-            type="text"
+            type="email"
             component={this.renderField}
             label="email"
-            placeholder="e.g: 08103459871"
+            placeholder="e.g: john..doe@example.com"
             icon={faEnvelope}
           />
         </div>

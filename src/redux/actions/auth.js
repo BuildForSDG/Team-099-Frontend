@@ -1,5 +1,5 @@
 import api from '../../api/api.js';
-import userOneGet from './user.js';
+import { userOneGet } from './user.js';
 import store from '../store.js';
 
 export const login = (loginData) => (dispatch) => {

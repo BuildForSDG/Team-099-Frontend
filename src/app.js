@@ -5,6 +5,7 @@ import { ToastContainer } from 'react-toastify';
 import Home from './components/home/home.js';
 import Login from './components/auth/login/login.js';
 import Logout from './components/auth/logout/logout.js';
+import Register from './components/auth/register/register.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Route exact path="/" component={Home} />
         <Route path="/login" component={Login} />
+        <Route path="/register" component={Register} />
         <Route path="/logout" component={Logout} />
       </Router>
       <ToastContainer

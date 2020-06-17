@@ -9,7 +9,14 @@ class Home extends Component {
     auth: PropTypes.object
   };
 
-  renderAuthButton = ({ isSignedIn }) => (isSignedIn ? <Link to="/logout">Logout</Link> : <Link to="/login">Login</Link>);
+  renderAuthButton = ({ isSignedIn }) => (isSignedIn ? (
+      <Link to="/logout">Logout</Link>
+  ) : (
+      <>
+        <Link to="/register" className="mr-3">Register</Link>
+        <Link to="/login">Login</Link>
+      </>
+  ));
 
   render = () => (
     <>

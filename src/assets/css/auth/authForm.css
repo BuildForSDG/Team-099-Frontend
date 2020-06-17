@@ -113,9 +113,11 @@ body#body div#authContainer form .form-holder-select label {
   cursor: pointer;
 }
 
-body#body div#authContainer form .form-holder-select label i {
-  display: block;
+body#body div#authContainer form .form-holder-select label .icon {
+  display: block !important;
   font-size: 300%;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 body#body div#authContainer form input[type='radio']:checked + label {
